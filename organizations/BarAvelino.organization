@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="BarAvelino">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="nico.redondo">
+      <firstName>Nico</firstName>
+      <lastName>Redondo</lastName>
+      <jobTitle>Supervisor</jobTitle>
+      <manager>marta.moreno</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="jose.perez">
+      <firstName>Jose</firstName>
+      <lastName>Pérez</lastName>
+      <jobTitle>Empleado</jobTitle>
+      <manager>javi.ramos</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="walter.bates">
+      <firstName>Walter</firstName>
+      <lastName>Bates</lastName>
+      <jobTitle>Empleado</jobTitle>
+      <manager>marta.moreno</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="marta.moreno">
+      <firstName>Marta</firstName>
+      <lastName>Moreno</lastName>
+      <manager>Usuario1</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="rodrigo.perez">
+      <firstName>Rodrigo</firstName>
+      <lastName>Perez</lastName>
+      <manager>marta.moreno</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="javi.ramos">
+      <firstName>Javier</firstName>
+      <lastName>Ramos</lastName>
+      <manager>Usuario1</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="luis.figueroa">
+      <firstName>Luis</firstName>
+      <lastName>Figueroa</lastName>
+      <manager>javi.ramos</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="alberto.diaz">
+      <firstName>Alberto</firstName>
+      <lastName>Díaz</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Cliente">
+      <displayName>Cliente</displayName>
+    </role>
+    <role name="Cocinero">
+      <displayName>Cocinero</displayName>
+    </role>
+    <role name="Camarero">
+      <displayName>Camarero</displayName>
+    </role>
+    <role name="Proveedor">
+      <displayName>Proveedor</displayName>
+    </role>
+    <role name="Jefe Cocina">
+      <displayName>Jefe Cocina</displayName>
+    </role>
+    <role name="Jefe Sala">
+      <displayName>Jefe Sala</displayName>
+    </role>
+    <role name="Encargado">
+      <displayName>Encargado</displayName>
+    </role>
+    <role name="Jefe">
+      <displayName>Jefe</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Internos">
+      <displayName>Internos</displayName>
+    </group>
+    <group name="Externos">
+      <displayName>Externos</displayName>
+    </group>
+    <group name="Gestión" parentPath="/Internos">
+      <displayName>Gestión</displayName>
+    </group>
+    <group name="Prov" parentPath="/Externos">
+      <displayName>Prov</displayName>
+    </group>
+    <group name="Clientes" parentPath="/Externos">
+      <displayName>Clientes</displayName>
+    </group>
+    <group name="Empleados" parentPath="/Internos">
+      <displayName>Empleados</displayName>
+    </group>
+    <group name="Cocina" parentPath="/Internos/Empleados">
+      <displayName>Cocina</displayName>
+    </group>
+    <group name="Sala" parentPath="/Internos/Empleados">
+      <displayName>Sala</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>walter.bates</userName>
+      <roleName>Cocinero</roleName>
+      <groupName>Cocina</groupName>
+      <groupParentPath>/Internos/Empleados</groupParentPath>
+    </membership>
+    <membership>
+      <userName>nico.redondo</userName>
+      <roleName>Cocinero</roleName>
+      <groupName>Cocina</groupName>
+      <groupParentPath>/Internos/Empleados</groupParentPath>
+    </membership>
+    <membership>
+      <userName>jose.perez</userName>
+      <roleName>Cliente</roleName>
+      <groupName>Externos</groupName>
+    </membership>
+    <membership>
+      <userName>marta.moreno</userName>
+      <roleName>Encargado</roleName>
+      <groupName>Gestión</groupName>
+      <groupParentPath>/Internos</groupParentPath>
+    </membership>
+    <membership>
+      <userName>rodrigo.perez</userName>
+      <roleName>Camarero</roleName>
+      <groupName>Sala</groupName>
+      <groupParentPath>/Internos/Empleados</groupParentPath>
+    </membership>
+    <membership>
+      <userName>javi.ramos</userName>
+      <roleName>Encargado</roleName>
+      <groupName>Gestión</groupName>
+      <groupParentPath>/Internos</groupParentPath>
+    </membership>
+    <membership>
+      <userName>luis.figueroa</userName>
+      <roleName>Jefe Cocina</roleName>
+      <groupName>Cocina</groupName>
+      <groupParentPath>/Internos/Empleados</groupParentPath>
+    </membership>
+    <membership>
+      <userName>alberto.diaz</userName>
+      <roleName>Jefe</roleName>
+      <groupName>Internos</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
