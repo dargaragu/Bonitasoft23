@@ -2,6 +2,7 @@
 <applications xmlns="http://documentation.bonitasoft.com/application-xml-schema/1.0">
     <application token="horasExtra" version="1.0" profile="User" homePage="dashboard" state="ACTIVATED" layout="custompage_layoutBonita" theme="custompage_themeBonita">
         <displayName>Horas Extra</displayName>
+        <description>Página que contiene los datos de todas las horas extra trabajadas por los empleados de Bar Avelino</description>
         <applicationPages>
             <applicationPage customPage="custompage_listaHorasExtra" token="dashboard"/>
         </applicationPages>
