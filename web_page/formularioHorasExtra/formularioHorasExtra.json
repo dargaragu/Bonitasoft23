@@ -2,7 +2,7 @@
   "modelVersion" : "2.3",
   "id" : "formularioHorasExtra",
   "name" : "formularioHorasExtra",
-  "lastUpdate" : 1683663042757,
+  "lastUpdate" : 1683804386096,
   "rows" : [
     [
       {
@@ -127,7 +127,7 @@
                         },
                         "cssClasses" : {
                           "type" : "constant",
-                          "value" : ""
+                          "value" : "control-label--required"
                         },
                         "labelWidth" : {
                           "type" : "constant",
@@ -211,7 +211,7 @@
                         },
                         "cssClasses" : {
                           "type" : "constant",
-                          "value" : ""
+                          "value" : "control-label--required"
                         },
                         "labelWidth" : {
                           "type" : "constant",
@@ -301,7 +301,7 @@
                         },
                         "cssClasses" : {
                           "type" : "constant",
-                          "value" : ""
+                          "value" : "control-label--required"
                         },
                         "labelWidth" : {
                           "type" : "constant",
@@ -405,7 +405,7 @@
                         },
                         "cssClasses" : {
                           "type" : "constant",
-                          "value" : ""
+                          "value" : "control-label--required"
                         },
                         "labelWidth" : {
                           "type" : "constant",
@@ -812,7 +812,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "{{formularioHEInput.apellido}}"
+                    "value" : "{{data:formularioHEInput.apellido}}"
                   },
                   "alignment" : {
                     "type" : "constant",

@@ -4,11 +4,15 @@
     margin-top: 5px;
 }
 
+
+
+
 /*Texto en negrita*/
 .negrita{
-    font-weight:800;
+    font-weight:600;
     font-size: large;
     font-style:italic;
+    text-decoration:underline;
 }
 
 /* Set cursor to pointer on table with selectable rows */
@@ -24,10 +28,19 @@ input[type='number'].ng-invalid.ng-dirty, input[type='password'].ng-invalid.ng-d
 }
 
 /* Add a red star after required inputs */
+.control-label--required {
+  position: relative;
+}
+
 .control-label--required:after {
   content: " *";
   color: #C00;
+  position: absolute;
+  top: 35px;
+  right: 0px; /* ajusta el valor según sea necesario */
 }
+
+
 .btn-invalid{
     border-color: #C00;
     border-width: 1px;

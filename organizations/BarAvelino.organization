@@ -7,8 +7,12 @@
       <lastName>Redondo</lastName>
       <jobTitle>Supervisor</jobTitle>
       <manager>marta.moreno</manager>
-      <personalData/>
-      <professionalData/>
+      <personalData>
+        <email>nico@baravelino.com</email>
+      </personalData>
+      <professionalData>
+        <email>nico@baravelino.com</email>
+      </professionalData>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
@@ -16,9 +20,13 @@
       <firstName>Jose</firstName>
       <lastName>Pérez</lastName>
       <jobTitle>Empleado</jobTitle>
-      <manager>javi.ramos</manager>
-      <personalData/>
-      <professionalData/>
+      <manager></manager>
+      <personalData>
+        <email>jose@baravelino.com</email>
+      </personalData>
+      <professionalData>
+        <email>jose@baravelino.com</email>
+      </professionalData>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
@@ -27,8 +35,12 @@
       <lastName>Bates</lastName>
       <jobTitle>Empleado</jobTitle>
       <manager>marta.moreno</manager>
-      <personalData/>
-      <professionalData/>
+      <personalData>
+        <email>walter@baravelino.com</email>
+      </personalData>
+      <professionalData>
+        <email>walter@baravelino.com</email>
+      </professionalData>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
@@ -36,8 +48,12 @@
       <firstName>Marta</firstName>
       <lastName>Moreno</lastName>
       <manager>Usuario1</manager>
-      <personalData/>
-      <professionalData/>
+      <personalData>
+        <email>marta@baravelino.com</email>
+      </personalData>
+      <professionalData>
+        <email>marta@baravelino.com</email>
+      </professionalData>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
@@ -45,8 +61,12 @@
       <firstName>Rodrigo</firstName>
       <lastName>Perez</lastName>
       <manager>marta.moreno</manager>
-      <personalData/>
-      <professionalData/>
+      <personalData>
+        <email>rodrigo@baravelino.com</email>
+      </personalData>
+      <professionalData>
+        <email>rodrigo@baravelino.com</email>
+      </professionalData>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
@@ -54,25 +74,37 @@
       <firstName>Javier</firstName>
       <lastName>Ramos</lastName>
       <manager>Usuario1</manager>
-      <personalData/>
-      <professionalData/>
+      <personalData>
+        <email>javier@baravelino.com</email>
+      </personalData>
+      <professionalData>
+        <email>javier@baravelino.com</email>
+      </professionalData>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
-    <user userName="luis.figueroa">
+    <user userName="luis.figo">
       <firstName>Luis</firstName>
       <lastName>Figueroa</lastName>
       <manager>javi.ramos</manager>
-      <personalData/>
-      <professionalData/>
+      <personalData>
+        <email>luis@baravelino.com</email>
+      </personalData>
+      <professionalData>
+        <email>luis@baravelino.com</email>
+      </professionalData>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
     <user userName="alberto.diaz">
       <firstName>Alberto</firstName>
       <lastName>Díaz</lastName>
-      <personalData/>
-      <professionalData/>
+      <personalData>
+        <email>alberto@baravelino.com</email>
+      </personalData>
+      <professionalData>
+        <email>alberto@baravelino.com</email>
+      </professionalData>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
@@ -166,7 +198,7 @@
       <groupParentPath>/Internos</groupParentPath>
     </membership>
     <membership>
-      <userName>luis.figueroa</userName>
+      <userName>luis.figo</userName>
       <roleName>Jefe Cocina</roleName>
       <groupName>Cocina</groupName>
       <groupParentPath>/Internos/Empleados</groupParentPath>

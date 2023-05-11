@@ -4,6 +4,10 @@
     margin-top: 3px;
 }
 
+/* Set cursor to pointer on table with selectable rows */
+.table-hover tr {
+    cursor: pointer;
+}
 
 .negrita{
     font-weight:600;
@@ -12,10 +16,6 @@
     text-decoration:underline;
 }
 
-/* Set cursor to pointer on table with selectable rows */
-.table-hover tr {
-    cursor: pointer;
-}
 
 /* Set a red border to invalid input fields in forms */
 input[type='text'].ng-invalid.ng-dirty, input[type='email'].ng-invalid.ng-dirty,
@@ -42,11 +42,4 @@ input[type='number'].ng-invalid.ng-dirty, input[type='password'].ng-invalid.ng-d
 .modal-open .timepicker {
     z-index: 9999;
 }
-
-
-
-.center{
-    
-}
-
 

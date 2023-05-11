@@ -2,7 +2,7 @@
   "modelVersion" : "2.3",
   "id" : "formularioRevision",
   "name" : "formularioRevision",
-  "lastUpdate" : 1683557671974,
+  "lastUpdate" : 1683804585412,
   "rows" : [
     [
       {
@@ -35,7 +35,7 @@
                 },
                 "cssClasses" : {
                   "type" : "constant",
-                  "value" : ""
+                  "value" : "negrita"
                 },
                 "text" : {
                   "type" : "interpolation",
@@ -48,6 +48,10 @@
                 "dimension" : {
                   "type" : "constant",
                   "value" : 12
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : false
                 }
               },
               "reference" : "a6758443-2d8a-47b2-b1be-31797eb35b3c",
@@ -143,11 +147,11 @@
                   },
                   "level" : {
                     "type" : "constant",
-                    "value" : "Level 4"
+                    "value" : "Level 3"
                   },
                   "cssClasses" : {
                     "type" : "constant",
-                    "value" : "negrita"
+                    "value" : ""
                   },
                   "text" : {
                     "type" : "interpolation",

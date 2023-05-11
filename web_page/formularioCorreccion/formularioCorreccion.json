@@ -2,7 +2,7 @@
   "modelVersion" : "2.3",
   "id" : "formularioCorreccion",
   "name" : "formularioCorreccion",
-  "lastUpdate" : 1683558044102,
+  "lastUpdate" : 1683804472642,
   "rows" : [
     [
       {
@@ -117,7 +117,16 @@
         "dimension" : {
           "xs" : 12
         },
-        "propertyValues" : { },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
         "reference" : "12bb6828-3af6-4d63-900e-ec697bcce145",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
@@ -147,7 +156,7 @@
                   },
                   "level" : {
                     "type" : "constant",
-                    "value" : "Level 4"
+                    "value" : "Level 3"
                   },
                   "cssClasses" : {
                     "type" : "constant",
@@ -159,7 +168,7 @@
                   },
                   "alignment" : {
                     "type" : "constant",
-                    "value" : "left"
+                    "value" : "center"
                   },
                   "dimension" : {
                     "type" : "constant",
@@ -210,10 +219,10 @@
                     {
                       "type" : "component",
                       "dimension" : {
-                        "md" : 12,
+                        "md" : 6,
                         "sm" : 12,
                         "xs" : 12,
-                        "lg" : 12
+                        "lg" : 6
                       },
                       "propertyValues" : {
                         "labelHidden" : {
@@ -230,7 +239,7 @@
                         },
                         "cssClasses" : {
                           "type" : "constant",
-                          "value" : ""
+                          "value" : "control-label--required"
                         },
                         "labelWidth" : {
                           "type" : "constant",
@@ -262,22 +271,42 @@
                         "required" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
                         }
                       },
                       "reference" : "d8ebc8b6-f0bc-4743-a54c-e91ecfd5b1d5",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
-                    }
-                  ],
-                  [
+                    },
                     {
                       "type" : "component",
                       "dimension" : {
-                        "md" : 12,
+                        "md" : 6,
                         "sm" : 12,
                         "xs" : 12,
-                        "lg" : 12
+                        "lg" : 6
                       },
                       "propertyValues" : {
                         "labelHidden" : {
@@ -294,7 +323,7 @@
                         },
                         "cssClasses" : {
                           "type" : "constant",
-                          "value" : ""
+                          "value" : "control-label--required"
                         },
                         "labelWidth" : {
                           "type" : "constant",
@@ -326,6 +355,28 @@
                         "required" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
                         }
                       },
                       "reference" : "6d19ce0a-2223-48e1-9e3e-f750a633065c",
@@ -362,7 +413,7 @@
                         },
                         "cssClasses" : {
                           "type" : "constant",
-                          "value" : ""
+                          "value" : "control-label--required"
                         },
                         "labelWidth" : {
                           "type" : "constant",
@@ -466,7 +517,7 @@
                         },
                         "cssClasses" : {
                           "type" : "constant",
-                          "value" : ""
+                          "value" : "control-label--required"
                         },
                         "labelWidth" : {
                           "type" : "constant",

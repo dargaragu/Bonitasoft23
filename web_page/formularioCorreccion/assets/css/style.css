@@ -8,6 +8,24 @@
 .table-hover tr {
     cursor: pointer;
 }
+.negrita{
+    font-weight:600;
+    font-size: large;
+    font-style:italic;
+    text-decoration:underline;
+}
+
+.control-label--required {
+  position: relative;
+}
+
+.control-label--required:after {
+  content: " *";
+  color: #C00;
+  position: absolute;
+  top: 35px;
+  right: 0px; /* ajusta el valor según sea necesario */
+}
 
 /* Set a red border to invalid input fields in forms */
 input[type='text'].ng-invalid.ng-dirty, input[type='email'].ng-invalid.ng-dirty,
