@@ -47,7 +47,7 @@
     <user userName="marta.moreno">
       <firstName>Marta</firstName>
       <lastName>Moreno</lastName>
-      <manager>Usuario1</manager>
+      <manager>javi.ramos</manager>
       <personalData>
         <email>marta@baravelino.com</email>
       </personalData>
@@ -73,7 +73,7 @@
     <user userName="javi.ramos">
       <firstName>Javier</firstName>
       <lastName>Ramos</lastName>
-      <manager>Usuario1</manager>
+      <manager></manager>
       <personalData>
         <email>javier@baravelino.com</email>
       </personalData>
