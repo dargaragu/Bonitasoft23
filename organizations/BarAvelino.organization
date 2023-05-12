@@ -30,16 +30,16 @@
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
-    <user userName="walter.bates">
-      <firstName>Walter</firstName>
-      <lastName>Bates</lastName>
+    <user userName="ramon.bono">
+      <firstName>Ramon</firstName>
+      <lastName>Bono</lastName>
       <jobTitle>Empleado</jobTitle>
       <manager>marta.moreno</manager>
       <personalData>
         <email>walter@baravelino.com</email>
       </personalData>
       <professionalData>
-        <email>walter@baravelino.com</email>
+        <email>ramon@baravelino.com</email>
       </professionalData>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
@@ -160,10 +160,16 @@
     <group name="Sala" parentPath="/Internos/Empleados">
       <displayName>Sala</displayName>
     </group>
+    <group name="Encargado" parentPath="/Internos/Gestión">
+      <displayName>Encargado</displayName>
+    </group>
+    <group name="Director" parentPath="/Internos/Gestión">
+      <displayName>Director</displayName>
+    </group>
   </groups>
   <memberships>
     <membership>
-      <userName>walter.bates</userName>
+      <userName>ramon.bono</userName>
       <roleName>Cocinero</roleName>
       <groupName>Cocina</groupName>
       <groupParentPath>/Internos/Empleados</groupParentPath>
@@ -182,8 +188,8 @@
     <membership>
       <userName>marta.moreno</userName>
       <roleName>Encargado</roleName>
-      <groupName>Gestión</groupName>
-      <groupParentPath>/Internos</groupParentPath>
+      <groupName>Encargado</groupName>
+      <groupParentPath>/Internos/Gestión</groupParentPath>
     </membership>
     <membership>
       <userName>rodrigo.perez</userName>
@@ -194,8 +200,8 @@
     <membership>
       <userName>javi.ramos</userName>
       <roleName>Encargado</roleName>
-      <groupName>Gestión</groupName>
-      <groupParentPath>/Internos</groupParentPath>
+      <groupName>Director</groupName>
+      <groupParentPath>/Internos/Gestión</groupParentPath>
     </membership>
     <membership>
       <userName>luis.figo</userName>
